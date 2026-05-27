@@ -9,22 +9,29 @@ TPN°2 Organización Empresarial con Git, GitHub y Jira
 **Escenario B: Análisis de Ventas de una Pequeña Empresa**
 
 Análisis de un conjunto de datos simulados de ventas comerciales para generar indicadores básicos que permitan interpretar el desempeño de la empresa.
+
 ---
 ## Descripción del Dataset
+
 Dataset simulado de ventas comerciales generado en Python. Contiene registros de ventas con información de producto, cantidad, precio y fecha. 
 **Archivo:** datos/ventas.csv
+
 ---
 ## Instrucciones para Ejecutar el Script
 
-Requisito previo: instalar matplotlib
+**Requisito previo**: instalar matplotlib
 pip install matplotlib
+
 ---
+
 ### En Google Colab
 1.	Clonar el repositorio: 
 !git clone https://github.com/SMarina-27/tp-organizacion-empresarial.git 
 %cd tp-organizacion-empresarial
 2.	Ejecutar el script: 
 %run scripts/analisis_ventas.py
-3.	Los resultados quedarán en la carpeta /resultados: 
-•	grafico_ventas.png: es la imagen del gráfico de evolución de ventas mensuales
-•	resultados.csv: es el archivo que genera el script con el resumen de ventas por mes y el total anual.
+3.	Los resultados quedarán en la carpeta /resultados:
+   
+     •	grafico_ventas.png: es la imagen del gráfico de evolución de ventas mensuales
+  	
+  	 •	resultados.csv: es el archivo que genera el script con el resumen de ventas por mes y el total anual.
