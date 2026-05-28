@@ -35,3 +35,4 @@ pip install matplotlib
      •	grafico_ventas.png: es la imagen del gráfico de evolución de ventas mensuales
   	
   	 •	resultados.csv: es el archivo que genera el script con el resumen de ventas por mes y el total anual.
+<!-- TAV-3: Revisión, documentación y cierre del Pull Request -->
